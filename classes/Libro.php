@@ -11,6 +11,7 @@ class Libro extends MaterialeBibliotecario {
         $this->titolo = $titolo;
         $this->autore = $autore;
         $this->annoPubblicazione = $annoPubblicazione;
+        self::$contatoreMateriali++;
     }
 
     // metodo statico che restituisce il valore dell'attributo

@@ -11,6 +11,7 @@ class DVD extends MaterialeBibliotecario {
         $this->titolo = $titolo;
         $this->regista = $regista;
         $this->annoPubblicazione = $annoPubblicazione;
+        self::$contatoreMateriali++;
     }
 
     // metodo statico che restituisce il valore dell'attributo
